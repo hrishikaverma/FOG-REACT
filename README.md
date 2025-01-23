@@ -1,61 +1,70 @@
-# Fog Project
+# Getting Started with Create React App
 
-## Project Overview
-The Fog Project is a web application developed using React for the front-end and Node.js for the back-end. The project aims to deliver a seamless, responsive user experience with modern technologies, leveraging the power of React.js for building a dynamic and interactive user interface, and Node.js to handle server-side operations efficiently.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The project is designed to meet real-world requirements and facilitate an easy-to-use platform for its users. The core functionality includes seamless integration between the front-end and back-end, providing a smooth, interactive experience.
+## Available Scripts
 
-## Tech Stack
-- Front-end: React.js
-- Back-end: Node.js
-- Other Libraries: Express, CORS, etc.
+In the project directory, you can run:
 
-## Features
-- **User Interface (UI):** The application provides an intuitive and responsive interface built with React.js.
-- **Dynamic Content:** React’s component-based architecture ensures a highly dynamic and maintainable structure.
-- **Server-Side Handling:** Node.js serves as the back-end, handling requests and responses efficiently.
-- **Data Management:** The application can interact with the database (if used) to store, retrieve, and manage data in real time.
-- **Responsive Design:** The app is fully responsive, adapting to all screen sizes, ensuring a consistent experience across different devices.
-- **Security:** Basic security features implemented using Express and middleware.
+### `npm start`
 
-## Installation
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Prerequisites
-Before you begin, ensure that you have the following installed:
-- Node.js (LTS version recommended)
-- npm (Node Package Manager)
-- Git (if you're cloning the repository)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Steps to Run the Application
-1. **Clone the Repository**
-   ```bash
-   git clone <repository-url>
-Install Backend Dependencies
-Navigate to the back-end folder (typically where your Node.js project is) and run the following command to install the required dependencies:
+### `npm test`
 
-bash
-npm install
-Install Frontend Dependencies
-Navigate to the front-end folder (React project) and run the following command to install the required dependencies:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-bash
-npm install
-Run the Application
+### `npm run build`
 
-Start the back-end server:
-bash
-npm start
-Start the front-end server:
-bash
-npm start
-This will run the application locally, and you can access the front-end through http://localhost:3000 (by default) and back-end at http://localhost:5000 (if configured this way).
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-API Endpoints
-/api/products - Fetch Product Data
-Method: GET
-Description: Retrieves the list of products stored on the server.
-Response: A JSON array of products.
-/api/product/:id - Fetch a Single Product by ID
-Method: GET
-Description: Fetches detailed information about a specific product by its ID.
-Response: A JSON object containing product details.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
